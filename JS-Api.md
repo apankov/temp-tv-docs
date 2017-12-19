@@ -4,7 +4,7 @@
 Data caching (history & symbol info) is implemented in Charting Library. When you create an object implementing described interface, just pass it to Library widget constructor through [[`datafeed` argument|Widget-Constructor#datafeed-mandatory]].
 
 # Methods
-1. [[onReady|JS-Api#onreadycallback]]
+1. [[onReady|JS-Api.md#onreadycallback]]
 2. [[searchSymbols|JS-Api#searchsymbolsuserinput-exchange-symboltype-onresultreadycallback]]
 3. [[resolveSymbol|JS-Api#resolvesymbolsymbolname-onsymbolresolvedcallback-onresolveerrorcallback]]
 4. [[getBars|JS-Api#getbarssymbolinfo-resolution-from-to-onhistorycallback-onerrorcallback-firstdatarequest]]
